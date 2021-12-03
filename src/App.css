@@ -1,0 +1,120 @@
+.App {
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+.adDesigner,
+.votes {
+    flex: 1;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.Header h1 {
+    color: #0e3c7e;
+    font-family: 'Caveat', cursive;
+}
+
+.adDesigner {
+    font-family: 'Caveat', cursive;
+    color: #000;
+}
+
+.Votes {
+    font-family: 'Caveat', cursive;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.box {
+    border: 10px #222 solid;
+    margin: 45px;
+    padding: 20px;
+    width: 30%;
+    display: inline-block;
+}
+
+button {
+    background-color: #1e60a9;
+}
+
+button:disabled {
+    background-color: gray;
+}
+
+.voteButtons button {
+    background-color: #0e3c7e;
+    color: white;
+    border-style: none;
+    margin: 0 2px 0 2px;
+    padding: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.graph {
+    height: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.chocolate {
+    background-color: #4f2c2c;
+}
+
+.vanilla {
+    background-color: #cbc0ac;
+}
+
+.strawberry {
+    background-color: #de8c91;
+}
+
+.noVote {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.creamFlavor {
+    font-weight: bold;
+}
+
+.noVotes {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
